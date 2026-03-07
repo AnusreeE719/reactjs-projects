@@ -1,0 +1,75 @@
+.acc-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.toggle-container span {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+/* Switch Background */
+.toggle-switch {
+  width: 50px;
+  height: 25px;
+  background-color: #8c92ac;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Circle */
+.toggle-circle {
+  width: 21px;
+  height: 21px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s ease;
+}
+
+/* ON State */
+.toggle-switch.on {
+  background-color: #4caf50;
+}
+
+.toggle-switch.on .toggle-circle {
+  transform: translateX(25px);
+}
+.accordion {
+  width: 750px;
+}
+
+.item {
+  background: #321414;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.title {
+  color: #ffffff;
+   display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  cursor: pointer;
+}
+
+.acc-content {
+  color: #ffffff;
+  height: auto;
+}

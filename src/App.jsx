@@ -1,5 +1,7 @@
 import Accordion from "./components/accordion"
+import GithubProfileFinder from "./components/githubProfileFinder"
 import RandomColorGenerator from "./components/randomColorGenerator"
+import RandomPasswordGenerator from "./components/randomPasswordGenerator"
 
 
 function App() {
@@ -7,7 +9,9 @@ function App() {
   return (
     <>
       {/* <Accordion /> */}
-      <RandomColorGenerator />
+      {/* <RandomColorGenerator /> */}
+      {/* <GithubProfileFinder /> */}
+      <RandomPasswordGenerator />
     </>
   )
 }

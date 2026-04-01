@@ -1,0 +1,116 @@
+.rpg-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f4f6;  
+}
+
+.rpg-card {
+  background: #ffffff;
+  padding: 30px;
+  width: 380px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.rpg-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.password-box {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.password-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+}
+
+.copy-btn {
+  background: #111827;
+  color: white;
+  border: none;
+  padding: 0 12px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background: black;
+}
+
+.strength-bar {
+  height: 6px;
+  background: #d1d5db;
+  border-radius: 6px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+.strength-text {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.strength-fill {
+  height: 100%;
+  border-radius: 6px;
+}
+
+.weak {
+  width: 25%;
+  background: #ef4444;
+}
+
+.medium {
+  width: 50%;
+  background: #facc15;
+}
+
+.strong {
+  width: 100%;
+  background: #22c55e;
+}
+
+.length-box {
+  margin: 15px 0;
+}
+
+.length-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.rpg-options {
+  margin: 15px 0;
+}
+
+.rpg-option {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.rpg-generate-btn {
+  width: 100%;
+  padding: 10px;
+  background: #111827;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.rpg-generate-btn:hover {
+  background: black;
+}
